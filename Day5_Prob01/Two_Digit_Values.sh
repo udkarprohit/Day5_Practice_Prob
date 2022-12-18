@@ -8,9 +8,9 @@ do
 	x=$(((RANDOM%90)+10))	
 	echo "The generated $i Random 2 Digit values are : "$x;
 	
-	#finding sum of 5 random number(sum+x)
+	#finding sum of 5 random number(sum + x)
 	sum=$((sum+$x)); 
-	#finding Average of 5 random number(sum/5)
+	#finding Average of 5 random number(sum / 5)
 	avg=$(($sum/5)); 
 done
 echo "The Sum of 5 Random Numbers is : "$sum;
